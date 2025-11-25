@@ -1,0 +1,45 @@
+# ---------------- Python ----------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyd
+*.log
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# ---------------- Streamlit / Cache ----------------
+.streamlit/
+
+# ---------------- Build / Packages ----------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---------------- OS / Misc ----------------
+*.DS_Store
+Thumbs.db
+
+# ---------------- PDF & DOCX generated output ----------------
+task_3_output/
+*.pdf
+*.docx
+*.doc
+
+# ---------------- API Keys / Config Files ----------------
+*.env
+config.json
+secrets.json
+
+# ---------------- Do Not Upload Gemini API KEY ----------------
+# (You should move the API key from code into .env file)
